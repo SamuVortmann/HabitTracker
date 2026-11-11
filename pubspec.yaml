@@ -1,0 +1,15 @@
+name: habit_tracker_api
+description: API REST para controle de hábitos pessoais, feita em Dart.
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: '>=3.10.0 <4.0.0'
+
+dependencies:
+  shelf: ^1.4.3
+  shelf_router: ^1.1.5
+  sqlite3: ^3.9.1
+
+dev_dependencies:
+  lints: ^6.0.0
